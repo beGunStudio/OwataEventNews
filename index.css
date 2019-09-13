@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*ここに調整CSS記述*/
+.hero-body {
+    background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)),
+        url(img/bg.jpg)center no-repeat;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    columnor: white !important;
+}
