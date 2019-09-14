@@ -2,11 +2,61 @@
 
 /*ここに調整CSS記述*/
 .hero-body {
-    background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)),
+    background: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
         url(img/bg.jpg)center no-repeat;
 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     columnor: white !important;
+}
+
+.rainbow_txt {
+  color: white;
+  font-size: 300%;
+  text-align: center;
+  font-family: arial black;
+  letter-spacing: 0.1em;
+  text-rendering: optimizeLegibility;
+  text-shadow: 1px -1px 0px #555, -1px 2px 0px #35A7FF, -2px 4px 1px #35A7FF, -3px 6px 1px #35A7FF, -4px 8px 1px #FFE74C, -5px 8px 1px #FFE74C, -6px 10px 0px #FFE74C, -7px 12px 1px #FF5964, -8px 14px 1px #FF5964, -9px 16px 1px #FF5964, -10px 18px 1px #FF5964, -11px 20px 1px #FF5964, -12px 22px 0px #FF5964;
+  animation: scrollOne 1s forwards infinite;
+}
+
+@keyframes scrollOne {
+  0% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #35A7FF, -2px 4px 1px #35A7FF, -3px 6px 1px #35A7FF, -4px 8px 1px #FFE74C, -5px 8px 1px #FFE74C, -6px 10px 0px #FFE74C, -7px 12px 1px #FF5964, -8px 14px 1px #FF5964, -9px 16px 1px #FF5964, -10px 18px 1px #FF5964, -11px 20px 1px #FF5964, -12px 22px 0px #FF5964;
+  }
+  9.09% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FF5964, -2px 4px 1px #35A7FF, -3px 6px 1px #35A7FF, -4px 8px 1px #35A7FF, -5px 8px 1px #FFE74C, -6px 10px 0px #FFE74C, -7px 12px 1px #FFE74C, -8px 14px 1px #FF5964, -9px 16px 1px #FF5964, -10px 18px 1px #FF5964, -11px 20px 1px #FF5964, -12px 22px 0px #FF5964;
+  }
+  18.18% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FF5964, -2px 4px 1px #FF5964, -3px 6px 1px #35A7FF, -4px 8px 1px #35A7FF, -5px 8px 1px #35A7FF, -6px 10px 0px #FFE74C, -7px 12px 1px #FFE74C, -8px 14px 1px #FFE74C, -9px 16px 1px #FF5964, -10px 18px 1px #FF5964, -11px 20px 1px #FF5964, -12px 22px 0px #FF5964;
+  }
+  27.27% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FF5964, -2px 4px 1px #FF5964, -3px 6px 1px #FF5964, -4px 8px 1px #35A7FF, -5px 8px 1px #35A7FF, -6px 10px 0px #35A7FF, -7px 12px 1px #FFE74C, -8px 14px 1px #FFE74C, -9px 16px 1px #FFE74C, -10px 18px 1px #FF5964, -11px 20px 1px #FF5964, -12px 22px 0px #FF5964;
+  }
+  36.36% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FF5964, -2px 4px 1px #FF5964, -3px 6px 1px #FF5964, -4px 8px 1px #FF5964, -5px 8px 1px #35A7FF, -6px 10px 0px #35A7FF, -7px 12px 1px #35A7FF, -8px 14px 1px #FFE74C, -9px 16px 1px #FFE74C, -10px 18px 1px #FFE74C, -11px 20px 1px #FF5964, -12px 22px 0px #FF5964;
+  }
+  45.45% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FF5964, -2px 4px 1px #FF5964, -3px 6px 1px #FF5964, -4px 8px 1px #FF5964, -5px 8px 1px #FF5964, -6px 10px 0px #35A7FF, -7px 12px 1px #35A7FF, -8px 14px 1px #35A7FF, -9px 16px 1px #FFE74C, -10px 18px 1px #FFE74C, -11px 20px 1px #FFE74C, -12px 22px 0px #FF5964;
+  }
+  54.54% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FF5964, -2px 4px 1px #FF5964, -3px 6px 1px #FF5964, -4px 8px 1px #FF5964, -5px 8px 1px #FF5964, -6px 10px 0px #FF5964, -7px 12px 1px #35A7FF, -8px 14px 1px #35A7FF, -9px 16px 1px #35A7FF, -10px 18px 1px #FFE74C, -11px 20px 1px #FFE74C, -12px 22px 0px #FFE74C;
+  }
+  63.63% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FFE74C, -2px 4px 1px #FF5964, -3px 6px 1px #FF5964, -4px 8px 1px #FF5964, -5px 8px 1px #FF5964, -6px 10px 0px #FF5964, -7px 12px 1px #FF5964, -8px 14px 1px #35A7FF, -9px 16px 1px #35A7FF, -10px 18px 1px #35A7FF, -11px 20px 1px #FFE74C, -12px 22px 0px #FFE74C;
+  }
+  72.72% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FFE74C, -2px 4px 1px #FFE74C, -3px 6px 1px #FF5964, -4px 8px 1px #FF5964, -5px 8px 1px #FF5964, -6px 10px 0px #FF5964, -7px 12px 1px #FF5964, -8px 14px 1px #FF5964, -9px 16px 1px #35A7FF, -10px 18px 1px #35A7FF, -11px 20px 1px #35A7FF, -12px 22px 0px #FFE74C;
+  }
+  81.81% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #FFE74C, -2px 4px 1px #FFE74C, -3px 6px 1px #FFE74C, -4px 8px 1px #FF5964, -5px 8px 1px #FF5964, -6px 10px 0px #FF5964, -7px 12px 1px #FF5964, -8px 14px 1px #FF5964, -9px 16px 1px #FF5964, -10px 18px 1px #35A7FF, -11px 20px 1px #35A7FF, -12px 22px 0px #35A7FF;
+  }
+  90.90% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #35A7FF, -2px 4px 1px #FFE74C, -3px 6px 1px #FFE74C, -4px 8px 1px #FFE74C, -5px 8px 1px #FF5964, -6px 10px 0px #FF5964, -7px 12px 1px #FF5964, -8px 14px 1px #FF5964, -9px 16px 1px #FF5964, -10px 18px 1px #FF5964, -11px 20px 1px #35A7FF, -12px 22px 0px #35A7FF;
+  }
+  100% {
+    text-shadow: 1px -1px 0px #555, -1px 2px 0px #35A7FF, -2px 4px 1px #35A7FF, -3px 6px 1px #FFE74C, -4px 8px 1px #FFE74C, -5px 8px 1px #FFE74C, -6px 10px 0px #FF5964, -7px 12px 1px #FF5964, -8px 14px 1px #FF5964, -9px 16px 1px #FF5964, -10px 18px 1px #FF5964, -11px 20px 1px #FF5964, -12px 22px 0px #35A7FF;
+  }
 }
